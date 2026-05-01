@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Query Selector Example</title>
+         <script>
+            function changeStyle(){
+            var divElt=document.querySelector("#div1");
+            divElt.style.border="solid blue 2px";
+            divElt.style.backgroundColor="aqua"
+            divElt.style.width="300px";
+            divElt.style.color="red";
+            }
+         </script>   
+    </head>
+    <body>
+        <div id="div1">This is div1</div>
+        <div id="div2">This is div2</div>
+        <div id="div3">This is div3</div>
+        <br>
+        <button onclick="changeStyle()">Change Style</button>
+    </body>
+</html>   
