@@ -1,0 +1,5 @@
+flask
+flask-RESTful
+flask-SQLAlchemy
+flask-CORS
+SQLAlchemy
